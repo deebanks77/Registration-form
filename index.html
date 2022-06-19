@@ -17,10 +17,26 @@
             <div class="flex">
                 <button>Try it free 7days then $20/mo. thereafter</button>
                 <form action="#">
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
-                    <input type="email" placeholder="Email Address" required>
-                    <input type="password" placeholder="Password" required>
+                    <fieldset>
+                        <input class="input" type="text" placeholder="First Name" required>
+                        <p class="validation-text">First Name cannot be empty</p>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <input class="input" type="text" placeholder="Last Name" required>
+                        <p class="validation-text">Last Name cannot be empty</p>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <input class="input" type="email" placeholder="Email Address" required>
+                        <p class="validation-text">Looks like this is not an email</p>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <input class="input" type="password" placeholder="Password" required>
+                        <p class="validation-text">Password cannot be empty</p>
+                    </fieldset>
+
                     <input type="submit" value="CLAIM YOUR FREE TRIAL">
 
                     <p>By clicking the button you are agreeing to our <a href="#">Terms and Services</a> </p>
